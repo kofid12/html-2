@@ -1,0 +1,73 @@
+.table {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+p {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0px;
+}
+
+.titlesmall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.breaklinefat {
+  background-color: black;
+  border: none;
+  color: black;
+  height: 10px;
+}
+
+.breakline2 {
+  background-color: black;
+  border: none;
+  color: black;
+  height: 5px;
+}
+
+.breakline {
+  size: 10;
+  color: black;
+}
+
+div > .bold {
+  font-weight: bold;
+}
+
+h3 {
+  line-height: 0.5px;
+}
+
+.titles2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.fullline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.invertedline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+}
